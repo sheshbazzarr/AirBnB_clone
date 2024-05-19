@@ -69,11 +69,3 @@ class FileStorage():
             FileStorage.__objects = {
                 k: current_classes[k.split('.')[0]](**v)
                 for k, v in deserialized.items()}
-""" 
-
-Purpose: To serialize and deserialize objects to and from a JSON file.
-Usage: Methods to add new objects (new), retrieve all objects (all), save to JSON (save), and load from JSON (reload).
-Scope: Handles specific models (BaseModel, User, State, City, Review, Amenity, Place).
-
-
-"""
