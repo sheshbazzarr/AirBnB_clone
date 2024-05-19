@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 """
 module test for console
-this script ensures that the console module works correctly, 
-adheres to coding standards, and handles various edge cases and error conditions appropriately.
-
 """
 import unittest
 from unittest.mock import patch
@@ -73,13 +70,13 @@ class TestConsole(unittest.TestCase):
         self.assertIsNotNone(HBNBCommand.default.__doc__)
 
     def test_empty(self):
-        """Test empty line of input  """
+        """Test empty line input"""
         with patch('sys.stdout', new=StringIO()) as f:
             self.cnsl.onecmd("\n")
             self.assertEqual('', f.getvalue())
 
     def test_quit(self):
-        """test quit command of input"""
+        """test quit command input"""
         with patch('sys.stdout', new=StringIO()) as f:
             with self.assertRaises(SystemExit):
                 self.cnsl.onecmd("quit")
@@ -239,4 +236,3 @@ class TestConsole(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
