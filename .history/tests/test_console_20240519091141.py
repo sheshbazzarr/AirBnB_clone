@@ -38,7 +38,6 @@ class TestConsole(unittest.TestCase):
     def teardown(cls):
         """
         at the end of the test this will tear it down
-        
         """
         del cls.cnsl
 
@@ -227,7 +226,6 @@ class TestConsole(unittest.TestCase):
 
     def test_classes_with_update(self):
         """
-        [- - -  the word]
         Passing arguments to classes.destroy(id)
         """
         p = os.path.dirname(os.path.abspath("console.py"))

@@ -38,7 +38,6 @@ class TestConsole(unittest.TestCase):
     def teardown(cls):
         """
         at the end of the test this will tear it down
-        
         """
         del cls.cnsl
 
