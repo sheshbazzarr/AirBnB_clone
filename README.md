@@ -63,6 +63,6 @@ EOF  help  quit
 (hbnb)
 $
 ```
-#*contributor*
+#AUTHORS
 
--Daniel [sheshbazzarr](https://github.com/sheshbazzarr)
+-Daniel Endale  [sheshbazzarr](https://github.com/sheshbazzarr)
