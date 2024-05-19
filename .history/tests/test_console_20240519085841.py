@@ -38,14 +38,12 @@ class TestConsole(unittest.TestCase):
     def teardown(cls):
         """
         at the end of the test this will tear it down
-        
         """
         del cls.cnsl
 
     def tearDown(self):
         """
         Remove temporary file (file.json) created as a result
-        of testing. .. ... 
         """
         try:
             os.remove("file.json")
@@ -142,7 +140,7 @@ class TestConsole(unittest.TestCase):
                 "** no instance found **\n", f.getvalue())
 
     def test_all(self):
-        """ Test all command inpout"""
+        """Test all command inpout"""
         with patch('sys.stdout', new=StringIO()) as f:
             self.cnsl.onecmd("all asdfsdfsd")
             self.assertEqual("** class doesn't exist **\n", f.getvalue())
@@ -227,7 +225,6 @@ class TestConsole(unittest.TestCase):
 
     def test_classes_with_update(self):
         """
-        [- - -  the word]
         Passing arguments to classes.destroy(id)
         """
         p = os.path.dirname(os.path.abspath("console.py"))
