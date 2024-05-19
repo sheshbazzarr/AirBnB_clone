@@ -1,10 +1,10 @@
-# **HOLBERTONBNB PROJECT**
+# **ALX -Software Engineering  PROJECT**
 ## **AIRBNB CLONE**
 
 # *Description*
-HolbertonBnB is a complete web application, integrating database storage, a back-end API, and front-end interface in a clone of AirBnB.
+This  is a complete web application, integrating database storage, a back-end API, and front-end interface in a clone of AirBnB.
 
-This team project is part of the (Alx) Holberton School Software Engineering program,but unforunaltly i did it alone. it is pretty exahusting at first knowing that ,doing all thing alone ,seeing the result is rewarding
+This team project is part of the (Alx) Software Engineering program,but unforunaltly i did it alone. it is pretty exahusting at first knowing that ,doing all thing alone ,seeing the result is rewarding
 It represents the first step towards building a full web application.
 
 This first step consists of:
@@ -64,4 +64,5 @@ EOF  help  quit
 $
 ```
 #*contributor*
+
 -Daniel [sheshbazzarr](https://github.com/sheshbazzarr)
